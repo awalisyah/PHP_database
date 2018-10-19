@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 19, 2018 at 04:39 AM
+-- Generation Time: Oct 19, 2018 at 01:43 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.6
 
@@ -17,16 +17,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `tugas`
+-- Database: `php-api`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tabel_kelas`
+-- Table structure for table `databes`
 --
 
-CREATE TABLE `tabel_kelas` (
+CREATE TABLE `databes` (
   `id` int(50) NOT NULL,
   `username` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
@@ -35,15 +35,15 @@ CREATE TABLE `tabel_kelas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tabel_kelas`
+-- Dumping data for table `databes`
 --
 
-INSERT INTO `tabel_kelas` (`id`, `username`, `password`, `level`, `fullname`) VALUES
-(1, 'awali', '123', 'admin', 'awalisyah'),
-(2, 'daffa', '123', 'user', 'daffa rayhan'),
-(3, 'dhea', '123', 'user', 'dhea qonita'),
-(4, 'diva', '123', 'user', 'diva audry'),
-(5, 'febryan', '123', 'user', 'febryan');
+INSERT INTO `databes` (`id`, `username`, `password`, `level`, `fullname`) VALUES
+(7, 'awali', '777', 'admin', 'awalisyah nafi'),
+(8, 'daffa', '888', 'user', 'daffa raihan'),
+(9, 'dhea', '999', 'user', 'dhea'),
+(10, 'diva', '000', 'user', 'dive audry'),
+(11, 'febriansyah', '111', 'user', 'febryansyah');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -20,7 +20,7 @@
   // 1. Lakukan include koneksi.php untuk membuat koneksi
   include('koneksi.php');
   // 2. Buat perintah SQL untuk menampilkan data
-  $sql_tampil ="SELECT * FROM tabel_kelas";
+  $sql_tampil ="SELECT * FROM databes";
   // 3. Jalankan perintah diatas dengan fungsi mysqli_query
   $peserta=mysqli_query($conn,$sql_tampil);
   // 4. Lakukan fetch dengan result type MYSQL_ASSOC
